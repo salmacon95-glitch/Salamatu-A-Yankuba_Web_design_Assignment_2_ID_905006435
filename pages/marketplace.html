@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Place | FarmYad Marketplace</title>
+  <link rel="stylesheet" href="../css/marketplace.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="index.html" class="logo">FarmYad<br>Marketplace</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about (1).html">About</a></li>
+        <li><a href="./farmers.html">Farmers</a></li>
+        <li><a href="./farmers.html" class="active">Market Place</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="hero-title">Market<br>Place</h1>
+    <h2 class="hero-tagline">Find Fresh agricultural products from local farmers.</h2>
+  </section>
+
+  <!-- SEARCH BAR -->
+  <form class="search-bar" id="searchForm" role="search">
+    <input type="text" id="searchInput" placeholder="search" aria-label="Search products">
+    <button type="submit">search</button>
+  </form>
+
+  <!-- CATEGORY + PRODUCTS -->
+   
+    <section class="products-1">
+      <div class="product-div">
+       <h2 class="products-title">Products</h2>
+       <p>FarmYad offers a variety of fresh, high-quality agricultural products directly from local farmers across Sierra Leone. Our marketplace features farm produce such as rice, cassava, groundnuts, maize, vegetables, fruits, and other locally grown crops. We connect farmers with buyers, making it easier to sell and purchase fresh produce at fair prices while reducing transportation challenges and the role of unnecessary middlemen. Through FarmYad, we aim to support local farmers, strengthen the agricultural sector, and make fresh farm products more accessible to everyone..</p>
+      </div>
+    </section>
+    
+  <main class="shop container">
+    <aside class="category-box">
+      <h3>Category</h3>
+      <ul id="categoryList">
+        <li class="active" data-category="all">All</li>
+        <li data-category="rice">Rice</li>
+        <li data-category="vegetable">Vegetable</li>
+        <li data-category="fruit">Fruit</li>
+        <li data-category="groundnut">Groundnut</li>
+        <li data-category="cassava">Cassava</li>
+        <li data-category="cocoa">Cocoa</li>
+        <li data-category="pepper">Pepper</li>
+        <li data-category="palmoil">Palmoil</li>
+        <li data-category="sweet potatoes">Sweet potatoes</li>
+        <li data-category="sweet oranges">Sweet Oranges</li>
+      </ul>
+    </aside>
+
+    <section class="products">
+      <div class="product-grid" id="productGrid">
+
+        <article class="product-card" data-category="rice" data-location="bo" data-available="true" data-name="Local Rice">
+          <div class="product-img"><img src="../images/rice.png" alt="Local Rice" onerror="this.style.display='none'"></div>
+          <h3>Local Rice</h3>
+          <p>Bo &bull; <span class="badge in">Available</span></p>
+        </article>
+
+        <article class="product-card" data-category="vegetable" data-location="freetown" data-available="true" data-name="Fresh Vegetables">
+          <div class="product-img"><img src="../images/mix veg in a box.png" alt="Fresh Vegetables" onerror="this.style.display='none'"></div>
+          <h3>Fresh Vegetables</h3>
+          <p>Freetown &bull; <span class="badge in">Available</span></p>
+        </article>
+
+        <article class="product-card" data-category="fruit" data-location="makeni" data-available="false" data-name="Mangoes">
+          <div class="product-img"><img src="../images/mangos in a basket.png" alt="Mangoes" onerror="this.style.display='none'"></div>
+          <h3>Mangoes</h3>
+          <p>Makeni &bull; <span class="badge out">Unavailable</span></p>
+        </article>
+
+        <article class="product-card" data-category="groundnut" data-location="kenema" data-available="true" data-name="Groundnuts">
+          <div class="product-img"><img src="../images/Groundnut.png" alt="Groundnuts" onerror="this.style.display='none'"></div>
+          <h3>Groundnuts</h3>
+          <p>Kenema &bull; <span class="badge in">Available</span></p>
+        </article>
+
+      </div>
+      <p class="no-results" id="noResults" hidden>No products found. Try another search or filter.</p>
+    </section>
+  </main>
+
+  <!-- LOCATION FILTER -->
+  <section class="location container">
+    <div class="location-box">
+      <div class="location-top">
+        <h2>Location</h2>
+        <div class="select-wrap">
+          <select id="locationSelect" aria-label="Select location">
+            <option value="all">Select Location</option>
+            <option value="freetown">Freetown</option>
+            <option value="bo">Bo</option>
+            <option value="kenema">Kenema</option>
+            <option value="makeni">Makeni</option>
+          </select>
+        </div>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" id="chkAvailable" checked>
+        <span>Available</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="chkUnavailable" checked>
+        <span>Unavailable</span>
+      </label>
+    </div>
+  </section>
+
+  <!-- CONTACT FARMERS -->
+  <section class="reach container">
+    <div class="reach-box">
+      <h2>Looking For Something else<br>Reach out to our Farmers</h2>
+      <details class="dropdown">
+        <summary>Contact Of Farmers</summary>
+        <ul>
+          <li><a href="tel:+23278588667">Farmer 1 &ndash; +23278588667</a></li>
+          <li><a href="mailto:Info@FarmYad.com">Email FarmYad Team</a></li>
+          <li><a href="farmers.html">View all Farmers</a></li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-col brand">
+      <h4>FarmYad</h4>
+      <p>Buy or sell<br>Farm Produce</p>
+    </div>
+
+    <div class="footer-col links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="farmers.html">Farmers</a>
+      <a href="marketplace.html">MarketPlace</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="footer-col contact">
+      <h4>Contact Us</h4>
+      <p class="contact-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        Freetown Sierra Leone
+      </p>
+      <p class="contact-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+        <a href="tel:+23278588667">+23278588667</a>
+      </p>
+    </div>
+
+    <div class="footer-col email">
+      <p class="contact-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+        <a href="mailto:Info@FarmYad.com">Info@FarmYad.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Simple filtering: category, search, location, availability -->
+  <script>
+    const cards = document.querySelectorAll('.product-card');
+    const categoryItems = document.querySelectorAll('#categoryList li');
+    const searchInput = document.getElementById('searchInput');
+    const locationSelect = document.getElementById('locationSelect');
+    const chkAvailable = document.getElementById('chkAvailable');
+    const chkUnavailable = document.getElementById('chkUnavailable');
+    const noResults = document.getElementById('noResults');
+    let activeCategory = 'all';
+
+    function applyFilters() {
+      const term = searchInput.value.trim().toLowerCase();
+      let shown = 0;
+      cards.forEach(card => {
+        const isAvail = card.dataset.available === 'true';
+        const match =
+          (activeCategory === 'all' || card.dataset.category === activeCategory) &&
+          (locationSelect.value === 'all' || card.dataset.location === locationSelect.value) &&
+          (isAvail ? chkAvailable.checked : chkUnavailable.checked) &&
+          card.dataset.name.toLowerCase().includes(term);
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      noResults.hidden = shown !== 0;
+    }
+
+    categoryItems.forEach(item => item.addEventListener('click', () => {
+      categoryItems.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      activeCategory = item.dataset.category;
+      applyFilters();
+    }));
+
+    document.getElementById('searchForm').addEventListener('submit', e => { e.preventDefault(); applyFilters(); });
+    searchInput.addEventListener('input', applyFilters);
+    [locationSelect, chkAvailable, chkUnavailable].forEach(el => el.addEventListener('change', applyFilters));
+  </script>
+
+</body>
+</html>
