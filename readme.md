@@ -1,4 +1,4 @@
-<!-- Farmyad  Marketplace-->
+## <!-- Farmyad  Marketplace-->
 
 Connecting farmers directly with buyers through a simple, modern online marketplace.
 
@@ -38,7 +38,7 @@ Demonstrate web development skills learned in class (structure, styling, layout,
 
  <!-- Pages of the Website -->
 
-1. Home Page
+## 1. Home Page
 
 File: index.html
 
@@ -54,7 +54,7 @@ A footer with quick links and basic contact details
 
 Purpose: To make a strong first impression and direct visitors to the most important parts of the site.
 
-2. About Page
+## 2. About Page
 
 File: about.html
 
@@ -69,7 +69,7 @@ A short note about the people who built the website
 
 Purpose: To build trust with visitors by explaining who is behind Farmyad and what it stands for.
 
-3. Farmers Page
+## 3. Farmers Page
 
 File: farmers.html
 
@@ -84,7 +84,7 @@ A way for visitors to learn more or get in touch with a farmer
 
 Purpose: To humanize the produce by showing the people who grow it, and to help buyers connect with farmers they trust.
 
-4. Marketplace Page
+## 4. Marketplace Page
 
 File: marketplace.html
 
@@ -99,7 +99,7 @@ A clean, easy-to-scan layout so buyers can compare items quickly
 
 Purpose: To let buyers discover fresh produce and see what is available at a glance.
 
-5. Contact Us Page
+## 5. Contact Us Page
 
 File: contact.html
 
@@ -118,6 +118,19 @@ HTML5	Structure and content of every page
 CSS3	Styling, layout, colors, and responsive design
 Font Awesome / Icons throughout the site
 Git & GitHub (optional)	Version control and hosting
+
+## SCREENSHOTS
+<img width="1898" height="3398" alt="marketplace" src="https://github.com/user-attachments/assets/c1189b47-e47b-4823-a5a8-493073be1651" />
+<img width="1898" height="3446" alt="home" src="https://github.com/user-attachments/assets/38ae927a-ffa0-43df-83be-62134f603a4a" />
+<img width="1898" height="2926" alt="farmers page" src="https://github.com/user-attachments/assets/8bbdf575-2764-4187-a47f-e5810390eef8" />
+<img width="1898" height="2571" alt="contact us" src="https://github.com/user-attachments/assets/54def736-d55c-4c1a-8145-d9c2c3d187c7" />
+<img width="1898" height="2452" alt="about" src="https://github.com/user-attachments/assets/20a55e66-5fa2-42a5-8114-cb6d821f2238" />
+
+
+
+
+
+
 
 <!-- Project Structure -->
 
