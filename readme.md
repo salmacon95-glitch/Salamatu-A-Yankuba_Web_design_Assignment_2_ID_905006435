@@ -125,6 +125,8 @@ Git & GitHub (optional)	Version control and hosting
 <img width="1898" height="2926" alt="farmers page" src="https://github.com/user-attachments/assets/8bbdf575-2764-4187-a47f-e5810390eef8" />
 <img width="1898" height="2571" alt="contact us" src="https://github.com/user-attachments/assets/54def736-d55c-4c1a-8145-d9c2c3d187c7" />
 <img width="1898" height="2452" alt="about" src="https://github.com/user-attachments/assets/20a55e66-5fa2-42a5-8114-cb6d821f2238" />
+<img width="1898" height="2571" alt="contact page" src="https://github.com/user-attachments/assets/f301414c-2e2f-4fd2-afb5-370af37d3c7c" />
+
 
 
 
